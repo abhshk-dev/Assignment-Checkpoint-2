@@ -1,0 +1,444 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----- Custom styling -----*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+  
+}
+
+/*----- General section ------*/
+h3{
+    font-size: 26px;
+    text-decoration: underline;
+}
+h4{
+    font-size: 20px;
+    color: rgba(128, 128, 128,0.43);
+
+}
+p{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.row{
+    margin:32px 0;
+    
+}
+.section-heading{
+    text-align: center;
+    padding: 22px 0;
+    
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.padding{
+    padding-top: 100px ;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:  0 32px ;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+address{
+    display: block;
+    font-size: 22px;
+    padding: 12px 0;
+}
+
+/* ---hero section----*/
+.hero-section{
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/banner.jpg);
+        
+        background-position: center center;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.hero-nav{
+    padding: 24px;
+    margin-left: 45%;
+    
+    
+}
+.hero-nav a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.hero-heading{
+    width: 30%;
+    text-align: center;
+    padding: 34px;
+    margin:  300px auto;
+}
+.hero-heading h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-heading p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    
+}
+.btn{
+    width: 170px;
+    padding: 12px 18px;
+    margin:  20px auto;
+    background-color: red;
+    border-radius: 6px;
+}
+.btn a{
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*---- Header section -----*/
+
+.header{
+    padding: 32px;
+    width: 100%;
+}
+
+ 
+
+.white{
+    background-color: #fff;
+}
+.logo img{
+    width: 50%;
+}
+.logo span{
+    text-decoration: none;
+}
+
+.nav  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:grey;
+    font-size: 18px;
+    margin-right: 20px;
+}
+/* ----- Service section -----*/
+
+.col{
+    color: #fff;
+    padding: 100px ;
+    font-size: 28px;
+}
+.color1{
+    background-color: #5cbd9d;
+}
+.color2{
+   background-color: #e67f31;
+}
+.color3{
+    background-color:#3998db ;
+}
+.color4{
+    background-color:#68cd73 ;
+}
+.col a{
+    color: #fff;
+    font-size: 36px;
+}
+
+/* ------ Portfolio section ------*/
+
+.img-col{
+    flex:0 1 23%;
+    margin: 14px 0;
+}
+.portfolio-img{
+    width: 100%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+/* ----- Members section -----*/
+
+.member-img-col{
+    flex: 0 1 23%;
+    margin: 14px 0;
+}
+.member-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*--- DESIGN SKILL SECTION ----*/
+
+.description-text{
+    width: 62%;
+}
+.text{
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.7;
+}
+.progress-bar{
+    flex: 0 1 32%;
+    padding: 50px 0;
+}
+.outside{
+    background-color: #e7e7e7;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.photoshop{
+    width: 90%;
+}
+.dev{
+    width: 70%;
+}
+.html{
+    width: 70%;
+}
+.marketing{
+    width: 80%;
+}
+.inside {
+    background-color: #ea513e;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 9px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+/* ----- Contact section ----*/
+
+.map{
+    padding: 50px 0;
+    width:100%;
+    
+}
+.contact-text{
+    width: 55%;
+}
+.contact-form{
+    flex: 0 1 40%;
+}
+.contact-form input[type=text], textarea {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-size: 12px;
+    color: #757575;
+    
+    border: 2px solid #d5d5d5;
+    padding: 8px;
+    margin-bottom: 13px;
+}
+
+.contact-form input[type=submit] {
+    text-decoration: none;
+    box-shadow: none;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: #ea513e;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px;
+    color: white;
+}
+/*---- footer section----*/
+
+.footer{
+    padding: 50px 0;
+    margin-top:90px;
+}
+.footer small{
+    font-size: 16px;
+    color: #666666;
+}
+.footer a {
+    text-decoration: none;
+    background-color: #ea513e;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding: 15px 22px;
+}
+
+/* ------ **GALLERY PAGE** -----*/
+
+  /* ----- Sidebar section-----*/
+.main{
+    display: flex;
+}
+.aside {
+    background-color: #ea513e;
+    padding: 25px;
+    height: 100vh;
+    width: 32%;
+    position: fixed;
+}
+.aside .flex{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.height{
+    height: 100%;
+}
+.aside-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.aside .brand {
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.aside .brand img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+aside .brand span{
+    align-self: center;
+}
+.aside .home a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px;
+    border: 2px solid white;
+}
+.aside-bottom{
+    margin-top: auto;
+}
+.aside-bottom h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+}
+.aside-bottom p{
+    font-size: 14px;
+}
+.aside-bottom .aside-nav {
+    text-align: left;
+    padding: 15px 0;
+}
+.aside-bottom .aside-nav a {
+    margin-right: 15px;
+}
+.aside-nav{
+    
+    padding: 20px;
+    margin: 0 auto;
+}
+.aside-nav a {
+    margin-left: 7px;
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+}
+
+/* ----- Gallery section -----*/
+
+.gallery{
+    display: flex;
+    width: 65%;
+    margin-left: 35%;
+}
+.gallery-heading h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    align-self: flex-start;
+
+}
+.gallery-images {
+    display: flex;
+}
+.gallery-col{
+    flex: 1;
+}
+.gallery-col img {
+    width: 90%;
+    margin: 3%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
