@@ -57,6 +57,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
+    
   
 }
 
@@ -115,11 +116,13 @@ address{
         height: 100vh;
         background-size: cover;
         background-repeat: no-repeat;
+        
     }
 
 .hero-nav{
     padding: 24px;
     margin-left: 45%;
+    
     
     
 }
@@ -169,6 +172,10 @@ address{
 .header{
     padding: 32px;
     width: 100%;
+    position: absolute;
+    margin-top: 100px;
+    
+    
 
 }
 
@@ -180,8 +187,12 @@ address{
 .logo img{
     width: 50%;
 }
-.logo span{
+ .logo {
     text-decoration: none;
+   
+}
+.logo p{
+    align-items: center;
 }
 
 .nav  a{
